@@ -29,10 +29,10 @@ It is a platform where YouTubers and YouTube Channels upload content in the form
 ## PROJECT BRIEF
 In this project, we are trying to examine the relationships and importance of interactive features on YouTube like views, likes, dislikes, and comment counts that affect the trendiness of a video. 
 What we did:
-•        Performed Sentiment Analysis on the Comments received on the Youtube     videos and comments dataset.
-•        Prediction of Trending period of Youtube videos using Random Forest 
-•        Prediction of sentiments using Logistic Regression
-•        Emoji Analysis from Youtube video Comments
+- Performed Sentiment Analysis on the Comments received on the Youtube     videos and comments dataset.
+- Prediction of Trending period of Youtube videos using Random Forest 
+- Prediction of sentiments using Logistic Regression
+- Emoji Analysis from Youtube video Comments
 ## DATA DESCRIPTION
 We used Kaggle.com to obtain the data for our analysis. Data from daily popular YouTube videos for the countries of the United States, Great Britain, Germany, Canada, France, Russia, Mexico, South Korea, Japan, and India are included in the collection, which spans several months. Each location has a different video file that we've used. The following features are included in the file data:
 List of Files:
