@@ -50,44 +50,46 @@ For this project, we worked on multiple files in order to identify trends among 
 
 1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
 
-![img for data cleaning of comments](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for data cleaning of comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Data%20Cleaning%20comments.png)
 
 For emojis and comments sentiment analysis, we separated emojis from the comments file.
 
-![img for data cleaning of trend stats](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for data cleaning of trend stats](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Data%20Cleaning%20trend.png)
 
 We included columns like diff_days for the video file to determine the number of days a video is trending for.
 
 2. Data Preprocessing - For emojis and comments, we performed sentiment analysis to see how the sentiments affect the trendiness of a video. We also performed an Emoji analysis to see how separate emoji counts can affect the videos.
 
-![img for data processing for sentiments](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for data processing for sentiments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Data%20Processing%20Comments.png)
 
 
 We chose elements such as the title, channel title, tags, and description for the video file to examine the variables that affect YouTube video popularity. We chose these factors to learn more about the terms and subjects most frequently related to popular YouTube videos.
 
-![img for data processing for trend](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for data processing for trend](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Data%20Processing%20Trend.png)
 
 ## EXPLORATORY DATA ANALYSIS FOR Emojis
 
 [Code for EDA of Emojis](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Emojis_Comments_Data_Cleaning_and_EDA.ipynb)
 
-![img for EDA emojis](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for EDA emojis](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/EDA%20Emojis.png)
 
 From the emoji analysis we can say that for top commented videos the emoji count is still not that high as expected. The viewers are not making use of emojis in a significantly large amount. However, the emoji analysis can be used in the future to compare the sentiments predicted from the text comment analysis.
 ## EXPLORATORY DATA ANALYSIS FOR Comments
 
 [Code for EDA of Comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Sentiment_Data_Visualization_and_EDA.ipynb)
 
-![img for EDA comments](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for EDA comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/EDA%20Comments.png)
 
 The box plot of Sentiment distribution over all the data analysis shows that many trending videos have neutral-to-positive sentiments(0.10 - 0.20). The likes_per_view ratio is not that high for many videos.
 ## EXPLORATORY DATA ANALYSIS FOR Sentiment with Trend
 
 [Code for EDA of Trend](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Trend_Data_Cleaning_and_EDA.ipynb)
 
+![img for EDA of trend](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/EDA%20Trend.png)
+
 [Code for EDA of Sentiment with Trend](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Sentiment_Data_Visualization_and_EDA.ipynb)
 
-![img for EDA sentiment with trend](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for EDA sentiment with trend](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/EDA%20Trend%20and%20Sentiments.png)
 
 To see if the you-tube comment's sentiments affect the trend or not, we plotted sentiments vs views and likes. From the heatmap and regression plots, we can say that sentiments do not correlate with the trend. But we observed a high correlation between views, likes, dislikes, and comment count. 
 So finally, we decided to use, tokenized and then count-vectorized comments(features) for sentiment prediction. And we decided to use vectorized features: views, likes, dislikes, and comment count for predicting the trend.
