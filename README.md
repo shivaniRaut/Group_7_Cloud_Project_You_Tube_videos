@@ -9,17 +9,17 @@
 ### Table Of Content
 
 - [Introduction](#INTRODUCTION)
-- [Project Brief](#PROJECT BRIEF)
-- Data Description
-- Methodology
-- Exploratory Data Analysis-Emojis
-- Exploratory Data Analysis-Comments
-- Sentiment with Trend
-- Model Evaluations and Results - Sentiment Prediction
-- Model Evaluation and Trend Prediction
-- Future Scope
-- References
-- Appendix
+- [Project Brief](#PROJECT-BRIEF)
+- [Data Description](#DATA-DESCRIPTION)
+- [Methodology](#METHODOLOGY)
+- [Exploratory Data Analysis-Emojis](#EXPLORATORY-DATA-ANALYSIS:-Emojis)
+- [Exploratory Data Analysis-Comments](#EXPLORATORY-DATA-ANALYSIS:-Comments)
+- [Sentiment with Trend](#EXPLORATORY-DATA-ANALYSIS:-Sentiment-with-Trend)
+- [Model Evaluations and Results - Sentiment Prediction](#RESULTS-AND-DISCUSSION)
+- [Model Evaluation and Trend Prediction](#RESULTS AND DISCUSSION)
+- [Future Scope](#FUTURE-SCOPE)
+- [References](#REFERENCES)
+- [Appendix](#APPENDIX)
 
 ## INTRODUCTION
 With more than 2 billion active users each month, YouTube has become a significant player in the online video content market recently. It has become an essential platform for businesses, individuals, and organizations to sell their products, services, and ideas as a result. The platform receives millions of video submissions every day, making it a hub for information, education, and entertainment.
