@@ -8,19 +8,19 @@ Group 7 Members: Alka Kumari, Shivani Raut, and Tina Joseph
 
 Table Of Content
 
-Table of Contents	2
-Introduction	3
-Project Brief	3
-Data Description	3
-Methodology	4
-Exploratory Data Analysis-Emojis	6
-Exploratory Data Analysis-Comments	6
-Sentiment with Trend	7
-Model Evaluations and Results - Sentiment Prediction	7
-Model Evaluation and Trend Prediction	8
-Future Scope	8
-References	9
-Appendix	10
+- Table of Contents	2
+- Introduction	3
+- Project Brief	3
+- Data Description	3
+- Methodology	4
+- Exploratory Data Analysis-Emojis	6
+- Exploratory Data Analysis-Comments	6
+- Sentiment with Trend	7
+- Model Evaluations and Results - Sentiment Prediction	7
+- Model Evaluation and Trend Prediction	8
+- Future Scope	8
+- References	9
+- Appendix	10
 
 
 INTRODUCTION
