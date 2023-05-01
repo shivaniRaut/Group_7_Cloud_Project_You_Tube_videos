@@ -45,6 +45,7 @@ For this project, we worked on multiple files in order to identify trends among 
 ## Data Preparation:
 1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
 
+
 ![img for data cleaning of comments](https://myoctocat.com/assets/images/base-octocat.svg)
 
 For emojis and comments sentiment analysis, we separated emojis from the comments file.
@@ -65,6 +66,7 @@ We chose elements such as the title, channel title, tags, and description for th
 ## EXPLORATORY DATA ANALYSIS: Emojis
 
 ![img for EDA emojis](https://myoctocat.com/assets/images/base-octocat.svg)
+
 From the emoji analysis we can say that for top commented videos the emoji count is still not that high as expected. The viewers are not making use of emojis in a significantly large amount. However, the emoji analysis can be used in the future to compare the sentiments predicted from the text comment analysis.
 ## EXPLORATORY DATA ANALYSIS: Comments
 
