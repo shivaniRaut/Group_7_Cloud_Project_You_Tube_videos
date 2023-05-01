@@ -43,14 +43,17 @@ List of Files:
 ## Data Understanding
 For this project, we worked on multiple files in order to identify trends among various YouTube videos. We counted 420029 records in total after reading the files. Special characters have been found in variables like the title, channel title, tags, and description. The existence of duplicate observations was an additional issue that came out during data processing. We found many rows with the same video_id since videos may trend for several days. We chose to only take into account the most recent instance of a trending video clip while evaluating the dataset in order to eliminate duplicate observations.
 ## Data Preparation:
-1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
 
+[Code for Comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Emojis_Comments_Data_Cleaning_and_EDA.ipynb)
+[Code for Trend Statistics](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Trend_Data_Cleaning_and_EDA.ipynb)
+
+1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
 
 ![img for data cleaning of comments](https://myoctocat.com/assets/images/base-octocat.svg)
 
 For emojis and comments sentiment analysis, we separated emojis from the comments file.
 
-![img for data cleaning of comments for emojies](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for data cleaning of trend stats](https://myoctocat.com/assets/images/base-octocat.svg)
 
 We included columns like diff_days for the video file to determine the number of days a video is trending for.
 
