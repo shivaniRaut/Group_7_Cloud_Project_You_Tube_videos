@@ -8,19 +8,19 @@
 
 ### Table Of Content
 
-- Table of Contents	2
-- Introduction	3
-- Project Brief	3
-- Data Description	3
-- Methodology	4
-- Exploratory Data Analysis-Emojis	6
-- Exploratory Data Analysis-Comments	6
-- Sentiment with Trend	7
-- Model Evaluations and Results - Sentiment Prediction	7
-- Model Evaluation and Trend Prediction	8
-- Future Scope	8
-- References	9
-- Appendix	10
+- Table of Contents
+- Introduction
+- Project Brief
+- Data Description
+- Methodology
+- Exploratory Data Analysis-Emojis
+- Exploratory Data Analysis-Comments
+- Sentiment with Trend
+- Model Evaluations and Results - Sentiment Prediction
+- Model Evaluation and Trend Prediction
+- Future Scope
+- References
+- Appendix
 
 
 ## INTRODUCTION
