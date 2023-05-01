@@ -12,11 +12,11 @@
 - [Project Brief](#PROJECT-BRIEF)
 - [Data Description](#DATA-DESCRIPTION)
 - [Methodology](#METHODOLOGY)
-- [Exploratory Data Analysis-Emojis](#EXPLORATORY-DATA-ANALYSIS:-Emojis)
-- [Exploratory Data Analysis-Comments](#EXPLORATORY-DATA-ANALYSIS:-Comments)
-- [Sentiment with Trend](#EXPLORATORY-DATA-ANALYSIS:-Sentiment-with-Trend)
+- [Exploratory Data Analysis-Emojis](#EXPLORATORY-DATA-ANALYSIS-FOR-Emojis)
+- [Exploratory Data Analysis-Comments](#EXPLORATORY-DATA-ANALYSIS-FOR-Comments)
+- [Sentiment with Trend](#EXPLORATORY-DATA-ANALYSIS-FOR-Sentiment-with-Trend)
 - [Model Evaluations and Results - Sentiment Prediction](#RESULTS-AND-DISCUSSION)
-- [Model Evaluation and Trend Prediction](#RESULTS AND DISCUSSION)
+- [Model Evaluation and Trend Prediction](#RESULTS-AND-DISCUSSION)
 - [Future Scope](#FUTURE-SCOPE)
 - [References](#REFERENCES)
 - [Appendix](#APPENDIX)
@@ -67,17 +67,17 @@ We chose elements such as the title, channel title, tags, and description for th
 
 ![img for data processing for trend](https://myoctocat.com/assets/images/base-octocat.svg)
 
-## EXPLORATORY DATA ANALYSIS: Emojis
+## EXPLORATORY DATA ANALYSIS FOR Emojis
 
 ![img for EDA emojis](https://myoctocat.com/assets/images/base-octocat.svg)
 
 From the emoji analysis we can say that for top commented videos the emoji count is still not that high as expected. The viewers are not making use of emojis in a significantly large amount. However, the emoji analysis can be used in the future to compare the sentiments predicted from the text comment analysis.
-## EXPLORATORY DATA ANALYSIS: Comments
+## EXPLORATORY DATA ANALYSIS FOR Comments
 
 ![img for EDA comments](https://myoctocat.com/assets/images/base-octocat.svg)
 
 The box plot of Sentiment distribution over all the data analysis shows that many trending videos have neutral-to-positive sentiments(0.10 - 0.20). The likes_per_view ratio is not that high for many videos.
-## EXPLORATORY DATA ANALYSIS: Sentiment with Trend
+## EXPLORATORY DATA ANALYSIS FOR Sentiment with Trend
 
 ![img for EDA sentiment with trend](https://myoctocat.com/assets/images/base-octocat.svg)
 
