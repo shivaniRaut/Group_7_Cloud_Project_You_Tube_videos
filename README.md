@@ -22,7 +22,6 @@
 - References
 - Appendix
 
-
 ## INTRODUCTION
 With more than 2 billion active users each month, YouTube has become a significant player in the online video content market recently. It has become an essential platform for businesses, individuals, and organizations to sell their products, services, and ideas as a result. The platform receives millions of video submissions every day, making it a hub for information, education, and entertainment.
 It is a platform where YouTubers and YouTube Channels upload content in the form of videos and can also receive feedback in the form of likes, comments, and several shares, from the audience. The YouTube audience watch these videos as per their likings and share their feedback in the form of views, likes, dislikes, comment, and sharing content with other audiences. 
@@ -40,20 +39,21 @@ List of Files:
 : GBcomments.csv, GBVideos.csv, UScomments.csv, USVideos.csv
 - Trending Youtube Videos: https://www.kaggle.com/datasets/datasnaek/youtube-new
 : 10 countries data files : CAvideos.csv, DEvideos.csv, FRvideos.csv, GBvideos.csv, INvideos.csv, JPvideos.csv, KRvideos.csv, MXvideos.csv, RUvideos.csv, USvideos.csv
-METHODOLOGY
+## METHODOLOGY
 ## Data Understanding
 For this project, we worked on multiple files in order to identify trends among various YouTube videos. We counted 420029 records in total after reading the files. Special characters have been found in variables like the title, channel title, tags, and description. The existence of duplicate observations was an additional issue that came out during data processing. We found many rows with the same video_id since videos may trend for several days. We chose to only take into account the most recent instance of a trending video clip while evaluating the dataset in order to eliminate duplicate observations.
 ## Data Preparation:
 1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
-
+![img for data cleaning of comments](https://myoctocat.com/assets/images/base-octocat.svg)
 For emojis and comments sentiment analysis, we separated emojis from the comments file.
-
+![img for data cleaning of comments for emojies](https://myoctocat.com/assets/images/base-octocat.svg)
 We included columns like diff_days for the video file to determine the number of days a video is trending for.
 
 2. Data Preprocessing - For emojis and comments, we performed sentiment analysis to see how the sentiments affect the trendiness of a video. We also performed an Emoji analysis to see how separate emoji counts can affect the videos.
+![img for data processing for sentiments](https://myoctocat.com/assets/images/base-octocat.svg)
 
 We chose elements such as the title, channel title, tags, and description for the video file to examine the variables that affect YouTube video popularity. We chose these factors to learn more about the terms and subjects most frequently related to popular YouTube videos.
-
+![img for data processing for trend](https://myoctocat.com/assets/images/base-octocat.svg)
 ## EXPLORATORY DATA ANALYSIS: Emojis
 
 From the emoji analysis we can say that for top commented videos the emoji count is still not that high as expected. The viewers are not making use of emojis in a significantly large amount. However, the emoji analysis can be used in the future to compare the sentiments predicted from the text comment analysis.
