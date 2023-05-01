@@ -44,24 +44,37 @@ List of Files:
 For this project, we worked on multiple files in order to identify trends among various YouTube videos. We counted 420029 records in total after reading the files. Special characters have been found in variables like the title, channel title, tags, and description. The existence of duplicate observations was an additional issue that came out during data processing. We found many rows with the same video_id since videos may trend for several days. We chose to only take into account the most recent instance of a trending video clip while evaluating the dataset in order to eliminate duplicate observations.
 ## Data Preparation:
 1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
+
 ![img for data cleaning of comments](https://myoctocat.com/assets/images/base-octocat.svg)
+
 For emojis and comments sentiment analysis, we separated emojis from the comments file.
+
 ![img for data cleaning of comments for emojies](https://myoctocat.com/assets/images/base-octocat.svg)
+
 We included columns like diff_days for the video file to determine the number of days a video is trending for.
 
 2. Data Preprocessing - For emojis and comments, we performed sentiment analysis to see how the sentiments affect the trendiness of a video. We also performed an Emoji analysis to see how separate emoji counts can affect the videos.
+
 ![img for data processing for sentiments](https://myoctocat.com/assets/images/base-octocat.svg)
 
+
 We chose elements such as the title, channel title, tags, and description for the video file to examine the variables that affect YouTube video popularity. We chose these factors to learn more about the terms and subjects most frequently related to popular YouTube videos.
+
 ![img for data processing for trend](https://myoctocat.com/assets/images/base-octocat.svg)
+
 ## EXPLORATORY DATA ANALYSIS: Emojis
+
 ![img for EDA emojis](https://myoctocat.com/assets/images/base-octocat.svg)
 From the emoji analysis we can say that for top commented videos the emoji count is still not that high as expected. The viewers are not making use of emojis in a significantly large amount. However, the emoji analysis can be used in the future to compare the sentiments predicted from the text comment analysis.
 ## EXPLORATORY DATA ANALYSIS: Comments
+
 ![img for EDA comments](https://myoctocat.com/assets/images/base-octocat.svg)
+
 The box plot of Sentiment distribution over all the data analysis shows that many trending videos have neutral-to-positive sentiments(0.10 - 0.20). The likes_per_view ratio is not that high for many videos.
 ## EXPLORATORY DATA ANALYSIS: Sentiment with Trend
+
 ![img for EDA sentiment with trend](https://myoctocat.com/assets/images/base-octocat.svg)
+
 To see if the you-tube comment's sentiments affect the trend or not, we plotted sentiments vs views and likes. From the heatmap and regression plots, we can say that sentiments do not correlate with the trend. But we observed a high correlation between views, likes, dislikes, and comment count. 
 So finally, we decided to use, tokenized and then count-vectorized comments(features) for sentiment prediction. And we decided to use vectorized features: views, likes, dislikes, and comment count for predicting the trend.
 ## RESULTS AND DISCUSSION: 
@@ -69,12 +82,16 @@ So finally, we decided to use, tokenized and then count-vectorized comments(feat
 - For the trend prediction model we used two labels: Tier and Trend. Both columns were calculated from date columns. The tier column gives the number of days the video took to get on the trending list while the Trend column gives the number of days the video was on the trending list. This means we are predicting both: the number of trends and the number of days that will trend for a video.
 - Again we had to balance the trend data and the accuracy improved significantly after that. Final accuracy is 86.76% for predicting the number of days the video will take to trend and 97.3% accuracy for the number of days the video will trend. The overall results of the evaluation are given below.
 ### SENTIMENT PREDICTION
+
 ![img for sentiment prediction results](https://myoctocat.com/assets/images/base-octocat.svg)
+
 One observation was noted after looking at the probabilities that as the number of views on video are increasing, the probability of the prediction is increasing and gets stabilized around 0.5. This can help to state that the views are contributing more than likes for the trend of the video on you-tube. So, the you-tubers can focus on increasing views more.
 ### TREND PREDICTION
+
 ![img for trend prediction results](https://myoctocat.com/assets/images/base-octocat.svg)
 
 ## POSSIBLE CLOUD MIGRATION OF THE PROJECT
+
 ![img for cloud project](https://myoctocat.com/assets/images/base-octocat.svg)
 
 ## FUTURE SCOPE
