@@ -95,6 +95,7 @@ Sponsors or the Advertisers of the you-tube channel can take the decisions to sp
 Appendix 1: Contributions from each member
 There was no clear-cut division of work in this team. Everybody worked on every part of the project to get good learning out of the project. However, by contribution:
 
+## APPENDIX
 Shivani Raut contributed more to Data analysis, Emoji Analysis, Comments analysis, and report review, Trend Prediction.
 Alka Kumari contributed to the Sentiment Analysis and prediction, project presentation, and project report. 
 Tina Joseph contributed to Data exploration, Data cleaning, and report reviewing Trend Prediction.
