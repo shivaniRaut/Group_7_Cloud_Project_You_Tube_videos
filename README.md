@@ -36,9 +36,9 @@ What we did:
 ## DATA DESCRIPTION
 We used Kaggle.com to obtain the data for our analysis. Data from daily popular YouTube videos for the countries of the United States, Great Britain, Germany, Canada, France, Russia, Mexico, South Korea, Japan, and India are included in the collection, which spans several months. Each location has a different video file that we've used. The following features are included in the file data:
 List of Files:
-Sentiment Analysis for Comments: https://www.kaggle.com/datasets/datasnaek/youtube
+- Sentiment Analysis for Comments: https://www.kaggle.com/datasets/datasnaek/youtube
 : GBcomments.csv, GBVideos.csv, UScomments.csv, USVideos.csv
-Trending Youtube Videos: https://www.kaggle.com/datasets/datasnaek/youtube-new
+- Trending Youtube Videos: https://www.kaggle.com/datasets/datasnaek/youtube-new
 : 10 countries data files : CAvideos.csv, DEvideos.csv, FRvideos.csv, GBvideos.csv, INvideos.csv, JPvideos.csv, KRvideos.csv, MXvideos.csv, RUvideos.csv, USvideos.csv
 METHODOLOGY
 ## Data Understanding
