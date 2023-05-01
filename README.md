@@ -43,10 +43,10 @@ List of Files:
 For this project, we worked on multiple files in order to identify trends among various YouTube videos. We counted 420029 records in total after reading the files. Special characters have been found in variables like the title, channel title, tags, and description. The existence of duplicate observations was an additional issue that came out during data processing. We found many rows with the same video_id since videos may trend for several days. We chose to only take into account the most recent instance of a trending video clip while evaluating the dataset in order to eliminate duplicate observations.
 ## Data Preparation:
 
-[Code for Comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Emojis_Comments_Data_Cleaning_and_EDA.ipynb)
+[Code for Data Preparation of Comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Emojis_Comments_Data_Cleaning_and_EDA.ipynb)
 
 
-[Code for Trend Statistics](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Trend_Data_Cleaning_and_EDA.ipynb)
+[Code for Data Preparation of Trend Statistics](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Trend_Data_Cleaning_and_EDA.ipynb)
 
 1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
 
@@ -69,15 +69,23 @@ We chose elements such as the title, channel title, tags, and description for th
 
 ## EXPLORATORY DATA ANALYSIS FOR Emojis
 
+[Code for EDA of Emojis](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Emojis_Comments_Data_Cleaning_and_EDA.ipynb)
+
 ![img for EDA emojis](https://myoctocat.com/assets/images/base-octocat.svg)
 
 From the emoji analysis we can say that for top commented videos the emoji count is still not that high as expected. The viewers are not making use of emojis in a significantly large amount. However, the emoji analysis can be used in the future to compare the sentiments predicted from the text comment analysis.
 ## EXPLORATORY DATA ANALYSIS FOR Comments
 
+[Code for EDA of Comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Sentiment_Data_Visualization_and_EDA.ipynb)
+
 ![img for EDA comments](https://myoctocat.com/assets/images/base-octocat.svg)
 
 The box plot of Sentiment distribution over all the data analysis shows that many trending videos have neutral-to-positive sentiments(0.10 - 0.20). The likes_per_view ratio is not that high for many videos.
 ## EXPLORATORY DATA ANALYSIS FOR Sentiment with Trend
+
+[Code for EDA of Trend](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Trend_Data_Cleaning_and_EDA.ipynb)
+
+[Code for EDA of Sentiment with Trend](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Sentiment_Data_Visualization_and_EDA.ipynb)
 
 ![img for EDA sentiment with trend](https://myoctocat.com/assets/images/base-octocat.svg)
 
@@ -89,16 +97,20 @@ So finally, we decided to use, tokenized and then count-vectorized comments(feat
 - Again we had to balance the trend data and the accuracy improved significantly after that. Final accuracy is 86.76% for predicting the number of days the video will take to trend and 97.3% accuracy for the number of days the video will trend. The overall results of the evaluation are given below.
 ### SENTIMENT PREDICTION
 
+[Code for Sentiment Prediction](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Prediction_of_Sentiment_Logistic_Reg.ipynb)
+
 ![img for sentiment prediction results](https://myoctocat.com/assets/images/base-octocat.svg)
 
 One observation was noted after looking at the probabilities that as the number of views on video are increasing, the probability of the prediction is increasing and gets stabilized around 0.5. This can help to state that the views are contributing more than likes for the trend of the video on you-tube. So, the you-tubers can focus on increasing views more.
 ### TREND PREDICTION
 
+[Code for Trend Prediction](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Prediction_of_Trend_Random_forest.ipynb)
+
 ![img for trend prediction results](https://myoctocat.com/assets/images/base-octocat.svg)
 
 ## POSSIBLE CLOUD MIGRATION OF THE PROJECT
 
-![img for cloud project](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for cloud project](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Cloud%20Bonus%20Lab-Page-4.drawio%20(1).png)
 
 ## FUTURE SCOPE
 - Sentiment Analysis using BERT:  BERT (Bidirectional Encoder Representations for Transformers) is a “new method of pre-training language representations” developed by Google and released in late 2018.
