@@ -64,9 +64,9 @@ The box plot of Sentiment distribution over all the data analysis shows that man
 To see if the you-tube comment's sentiments affect the trend or not, we plotted sentiments vs views and likes. From the heatmap and regression plots, we can say that sentiments do not correlate with the trend. But we observed a high correlation between views, likes, dislikes, and comment count. 
 So finally, we decided to use, tokenized and then count-vectorized comments(features) for sentiment prediction. And we decided to use vectorized features: views, likes, dislikes, and comment count for predicting the trend.
 ## RESULTS AND DISCUSSION: 
-The dataset features and labels were imbalanced before. So, we balanced the dataset after considering neutral comments as negative comments, increasing weights to that class in the tree. We got 99% accuracy after balancing the data which was 86% before
-For the trend prediction model we used two labels: Tier and Trend. Both columns were calculated from date columns. The tier column gives the number of days the video took to get on the trending list while the Trend column gives the number of days the video was on the trending list. This means we are predicting both: the number of trends and the number of days that will trend for a video.
-Again we had to balance the trend data and the accuracy improved significantly after that. Final accuracy is 86.76% for predicting the number of days the video will take to trend and 97.3% accuracy for the number of days the video will trend. The overall results of the evaluation are given below.
+- The dataset features and labels were imbalanced before. So, we balanced the dataset after considering neutral comments as negative comments, increasing weights to that class in the tree. We got 99% accuracy after balancing the data which was 86% before
+- For the trend prediction model we used two labels: Tier and Trend. Both columns were calculated from date columns. The tier column gives the number of days the video took to get on the trending list while the Trend column gives the number of days the video was on the trending list. This means we are predicting both: the number of trends and the number of days that will trend for a video.
+- Again we had to balance the trend data and the accuracy improved significantly after that. Final accuracy is 86.76% for predicting the number of days the video will take to trend and 97.3% accuracy for the number of days the video will trend. The overall results of the evaluation are given below.
 ### SENTIMENT PREDICTION
 
 One observation was noted after looking at the probabilities that as the number of views on video are increasing, the probability of the prediction is increasing and gets stabilized around 0.5. This can help to state that the views are contributing more than likes for the trend of the video on you-tube. So, the you-tubers can focus on increasing views more.
@@ -77,9 +77,9 @@ One observation was noted after looking at the probabilities that as the number 
 
 
 ## FUTURE SCOPE
-Sentiment Analysis using BERT:  BERT (Bidirectional Encoder Representations for Transformers) is a “new method of pre-training language representations” developed by Google and released in late 2018.
- A website can be made where you-tuber can monitor the statistics through Dashboards of their videos. The Dashboards will show the predictions of the Trends and Sentiments of the videos.
-Sponsors or the Advertisers of the you-tube channel can take the decisions to sponsor/advertise on specific you-tube channels based on the predictions.
+- Sentiment Analysis using BERT:  BERT (Bidirectional Encoder Representations for Transformers) is a “new method of pre-training language representations” developed by Google and released in late 2018.
+- A website can be made where you-tuber can monitor the statistics through Dashboards of their videos. The Dashboards will show the predictions of the Trends and Sentiments of the videos.
+- Sponsors or the Advertisers of the you-tube channel can take the decisions to sponsor/advertise on specific you-tube channels based on the predictions.
 
 
 ## REFERENCES
