@@ -8,9 +8,8 @@
 
 ### Table Of Content
 
-- Table of Contents
-- Introduction
-- Project Brief
+- [Introduction](#INTRODUCTION)
+- [Project Brief](#PROJECT BRIEF)
 - Data Description
 - Methodology
 - Exploratory Data Analysis-Emojis
@@ -45,6 +44,8 @@ For this project, we worked on multiple files in order to identify trends among 
 ## Data Preparation:
 
 [Code for Comments](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Emojis_Comments_Data_Cleaning_and_EDA.ipynb)
+
+
 [Code for Trend Statistics](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/For_Trend_Data_Cleaning_and_EDA.ipynb)
 
 1. Data Cleaning - Removed obtrusive data such as null values and special characters from both files and discarded duplicate observations. Added more columns to the file that were required to do the evaluations to predict the sentiment analysis and prediction of trending videos.
