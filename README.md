@@ -101,14 +101,14 @@ So finally, we decided to use, tokenized and then count-vectorized comments(feat
 
 [Code for Sentiment Prediction](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Prediction_of_Sentiment_Logistic_Reg.ipynb)
 
-![img for sentiment prediction results](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for sentiment prediction results](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Sentiment%20Pred%20Result.png)
 
 One observation was noted after looking at the probabilities that as the number of views on video are increasing, the probability of the prediction is increasing and gets stabilized around 0.5. This can help to state that the views are contributing more than likes for the trend of the video on you-tube. So, the you-tubers can focus on increasing views more.
 ### TREND PREDICTION
 
 [Code for Trend Prediction](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Prediction_of_Trend_Random_forest.ipynb)
 
-![img for trend prediction results](https://myoctocat.com/assets/images/base-octocat.svg)
+![img for trend prediction results](https://github.com/shivaniRaut/Group_7_Cloud_Project_You_Tube_videos/blob/main/Trend%20Pred%20Result.png)
 
 ## POSSIBLE CLOUD MIGRATION OF THE PROJECT
 
